@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pixel 404 </title>
+
+  <!-- CSS file -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo">P</div>
+      <div class="brand-text">
+        <h1>Pixel 404</h1>
+        <p>Every Pixel has a Memory</p>
+      </div>
+    </div>
+    <button class="theme-toggle" id="themeBtn">🌙</button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Hi — I'm Prolayjit Biswas</h2>
+      <p>Beginner hobbyist photographer exploring landscapes, street moments and portraits. This portfolio showcases my favorite frames with stories and technical notes.</p>
+      <p style="color:var(--muted); font-size:1rem">Based in Kolkata, West Bengal, India</p>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num" id="photoCount">6</div>
+          <div class="stat-label">Photos</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">4</div>
+          <div class="stat-label">Categories</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">3</div>
+          <div class="stat-label">Collections</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="info-item">
+        <div class="info-label">Gear</div>
+        <div class="info-value">Redmi Note 11 Pro+ 5G<br>108 MP Sensor | Mobile Edits</div>
+      </div>
+      <div class="info-item">
+        <div class="info-label">Editing Software</div>
+        <div class="info-value">MIUI Gallery Editor</div>
+      </div>
+      <div class="info-item">
+        <div class="info-label">Connect</div>
+        <div class="social-links">
+          <a href="https://www.instagram.com/pi_x_el.jpg/" class="social-btn" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="https://pinterest.com/pro_lay04/" class="social-btn" target="_blank"><i class="fab fa-pinterest"></i> Pinterest</a>
+          <a href="https://500px.com/p/pro_lay04" class="social-btn" target="_blank"><i class="fab fa-500px"></i> 500px</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <div class="section-header">
+      <h2>Gallery</h2>
+    </div>
+
+    <div class="controls">
+      <div class="search-wrapper">
+        <input type="text" class="search-input" id="searchInput" placeholder="Search by title, location, collection, or tags...">
+        <span class="search-icon">🔍</span>
+      </div>
+      <div class="controls-row">
+        <div class="filter-group" id="filters"></div>
+        <div class="view-mode">
+          <button class="view-btn active" data-view="masonry" title="Masonry"><i class="fas fa-th"></i></button>
+          <button class="view-btn" data-view="grid" title="Grid"><i class="fas fa-grip-horizontal"></i></button>
+          <button class="view-btn" data-view="landscape" title="Landscape"><i class="fas fa-image"></i></button>
+          <button class="view-btn" data-view="portrait" title="Portrait"><i class="fas fa-portrait"></i></button>
+          <button class="view-btn" data-view="timeline" title="Timeline"><i class="fas fa-clock"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery" id="gallery"></div>
+  </section>
+
+  <section class="about-contact-section">
+    <div class="about-card">
+      <h2 class="section-title-main">About Me</h2>
+      <p class="about-text">
+        I'm <strong>Prolayjit Biswas</strong>, a passionate beginner photographer from Kolkata, West Bengal. Armed with nothing but a smartphone and curiosity, I capture moments that tell stories — from golden sunsets to bustling street corners.
+      </p>
+      <p class="about-text">
+        Photography for me is about finding beauty in everyday life. Whether it's the play of light through morning fog or the vibrant chaos of a local market, every frame teaches me something new about perspective, patience, and storytelling.
+      </p>
+      <p class="about-text">
+        My journey started with casual snapshots and evolved into a deliberate practice of composition, lighting, and post-processing. I believe great photography isn't about expensive gear — it's about seeing the world differently.
+      </p>
+      <p class="about-text" style="margin-bottom:0">
+        <strong>My Approach:</strong> Natural light enthusiast | Minimalist editing | Story-driven compositions
+      </p>
+    </div>
+    
+    <div class="contact-card">
+      <h2 class="section-title-main">Get In Touch</h2>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label class="form-label">Your Name</label>
+          <input type="text" class="form-input" placeholder="Example Example" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email Address</label>
+          <input type="email" class="form-input" placeholder="example@example.com" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message</label>
+          <textarea class="form-textarea" placeholder="Your message here..." required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+      <div class="social-links" style="margin-top:24px; justify-content:center">
+        <a href="prolayjitbiswas14112004@gmail.com" class="social-btn"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://wa.me/919339615464" class="social-btn" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <div class="footer-logo">P</div>
+        <h3 style="font-size:1.5rem; font-weight:800; font-family:Montserrat; margin-bottom:8px">Pixel 404</h3>
+        <p class="footer-text">
+          Capturing moments that matter. Every photograph tells a story, every pixel holds a memory. Join me on this visual journey through landscapes, streets, and portraits.
+        </p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/pro_lay04/" class="footer-social-btn" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://in.pinterest.com/pro_lay04/" class="footer-social-btn" target="_blank"><i class="fab fa-pinterest"></i></a>
+          <a href="https://500px.com/p/pro_lay04" class="footer-social-btn" target="_blank"><i class="fab fa-500px"></i></a>
+          <a href="https://www.facebook.com/prolay04" class="footer-social-btn" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://x.com/pro_lay04" class="footer-social-btn" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <div class="footer-links">
+          <a href="#" class="footer-link"><i class="fas fa-home"></i> Home</a>
+          <a href="#gallery" class="footer-link"><i class="fas fa-images"></i> Gallery</a>
+          <a href="#about" class="footer-link"><i class="fas fa-user"></i> About</a>
+          <a href="#contact" class="footer-link"><i class="fas fa-envelope"></i> Contact</a>
+        </div>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Categories</h4>
+        <div class="footer-links">
+          <a href="#" class="footer-link"><i class="fas fa-tree"></i> Nature</a>
+          <a href="#" class="footer-link"><i class="fas fa-city"></i> Street</a>
+          <a href="#" class="footer-link"><i class="fas fa-user-circle"></i> Portrait</a>
+          <a href="#" class="footer-link"><i class="fas fa-palette"></i> Abstract</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 Pixel 404 Photography. All rights reserved. | Designed & Developed with <i class="fas fa-heart" style="color:#ea580c"></i> by Prolayjit Biswas</p>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lb-nav lb-close" id="closeBtn">✕</button>
+    <button class="lb-nav lb-prev" id="prevBtn">◀</button>
+    <button class="lb-nav lb-next" id="nextBtn">▶</button>
+    
+    <div class="lb-content">
+      <div class="lb-main" id="lbMain">
+        <div class="lb-image-container">
+          <img src="" alt="" class="lb-img" id="lbImg">
+          <div class="lb-info" id="lbInfo">
+            <h3 id="lbTitle"></h3>
+            <p id="lbCaption"></p>
+            <button class="details-btn" id="detailsBtn">View Full Details →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lb-panel" id="panel">
+      <div class="panel-header">
+        <h3>Photo Details</h3>
+        <div class="panel-actions">
+          <button class="action-btn" id="downloadBtn" title="Download with Watermark"><i class="fas fa-download"></i></button>
+          <button class="action-btn" id="panelClose">✕</button>
+        </div>
+      </div>
+      <div class="panel-body" id="panelBody"></div>
+    </div>
+  </div>
+
+  <!-- JS file -->
+  <script src="script.js"></script>
+
+</body>
+</html>
