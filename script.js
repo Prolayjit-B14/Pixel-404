@@ -83,9 +83,8 @@ const photos = [
     app: 'MIUI Gallery Editor',
     exposure: 'Adjusted Exposure, Brightness, and Lightness for optimal warmth and visibility.',
     tone: 'Increased Contrast, reduced Highlights, and lifted Shadows for a dramatic glow.',
-    aesthetics: 'Applied a subtle Vignette to draw focus, and adjusted Dark/Light Range for overall depth.',
     color: 'Boosted Vibrance and targeted Saturation on the background bokeh.',
-    detail: 'Enhanced Clarity and Sharpness to define the flame and wax texture.'
+    detail: 'Enhanced Clarity and Sharpness to define the flame and wax texture. Applied a subtle Vignette to draw focus, and adjusted Dark/Light Range for overall depth.'
   },
   notes: 'A low-light capture with the warm glow of the candle flame contrasting beautifully against the colorful background illumination.'
 },
@@ -142,11 +141,126 @@ const photos = [
     app: 'MIUI Gallery Editor',
     exposure: 'Adjusted Exposure and Brightness to enhance the glow of the setting sun.',
     tone: 'Increased Contrast to separate the sky and water, and reduced Highlights to preserve detail in the sun and its reflection.',
-    aesthetics: 'Applied a subtle crop to emphasize the horizon line and reflection.',
     color: 'Boosted Vibrance and Warmth to intensify the golden-hour tones in the sky and water.',
     detail: 'Enhanced Clarity and Sharpness slightly to define the distant shoreline.'
   },
   notes: 'A serene winter sunset at Eco Park, capturing the rich orange glow and soft reflection of the sun across the calm water surface.'
+},
+{
+  src: 'asstes/photo6.jpg',
+  title: 'The Floating Puzzle',
+  caption: 'Solving the puzzle means finding the right perspective 🧩',
+  location: 'Krishnanagar, West Bengal, India',
+  date: '2023-08-15',
+  time: '08:30 IST',
+  camera: 'Redmi Note 11 Pro+ 5G',
+  category: 'Abstract',
+  tags: ['creative', 'macro', 'perspective', 'rubiks-cube', 'color-pop'],
+  collection: 'Abstract Art',
+  device: 'Redmi Note 11 Pro+ 5G, Xiaomi',
+  sensor: '108 MP',
+  lens: '24mm (Equivalent)',
+  aperture: 'f/1.9',
+  shutter: '1/1100s',
+  iso: '50',
+  wb: 'Auto',
+  flash: 'No Flash',
+  mode: 'Pro | Bright Light | No Flash',
+  editing: {
+    app: 'Adobe Lightroom Mobile',
+    tone: 'Fine-tuned Exposure and Contrast. Controlled dynamic range by adjusting Blacks and Whites, reducing Highlights, and adjusting Shadows.',
+    color: 'Heavily boosted Saturation and Vibrance for maximum color pop. Adjusted Color Temperature for cube faces.',
+    detail: 'Enhanced Texture and Clarity to define cube surfaces and boosted Sharpness on edges.',
+    masking: 'Used Masks for selective edits and utilized the Erase tool to refine the floating effect against the background.'
+  },
+  notes: 'A high-speed capture transformed in post-processing to create a surreal floating cube composition — merging precision, creativity, and perspective.'
+},
+{
+  src: 'asstes/photo7.jpg',
+  title: 'A Crown Against the Sky',
+  caption: 'The resilience of nature, framed by a brilliant, cloud-swept canvas ☁️',
+  location: 'NH-12, Haringhata, West Bengal, India',
+  date: '2025-05-28',
+  time: '17:16 IST',
+  camera: 'Redmi Note 11 Pro+ 5G',
+  category: 'Nature',
+  tags: ['sky', 'tree', 'clouds', 'contrast', 'nature-photography'],
+  collection: 'Nature',
+  device: 'Redmi Note 11 Pro+ 5G, Xiaomi',
+  sensor: '108 MP',
+  lens: '5.89mm (Actual Focal Length)',
+  aperture: 'f/1.89',
+  shutter: '1/381s',
+  iso: '50',
+  wb: 'Auto',
+  flash: 'No Flash',
+  mode: 'Pro | Day Light | No Flash',
+  editing: {
+    app: 'Adobe Lightroom Mobile',
+    masking: 'Utilized Masking to individually adjust the Sky and Subject (Tree) for precise control.',
+    light: 'Adjusted global Exposure and Contrast. Fine-tuned Highlights and Shadows, and set Whites and Blacks for dynamic range.',
+    color: 'Boosted global Vibrance and Saturation for a more vivid palette.',
+    detail: 'Enhanced Sharpness and Clarity to define intricate branches and cloud textures.'
+  },
+  notes: 'A high-contrast shot of a leafless deciduous tree standing tall against a vivid, cloud-filled blue sky — a symbol of resilience and natural grace captured in the golden light of late afternoon.'
+},
+{
+  src: 'asstes/photo8.jpg',
+  title: "Calcutta's Green Lung",
+  caption: 'A quiet Sunday stroll beneath the canopy of the historic Maidan. 🚶',
+  location: 'Maidan, Kolkata, West Bengal, India',
+  date: '2025-07-27',
+  time: '15:33 IST',
+  camera: 'Redmi Note 11 Pro+ 5G',
+  category: 'Nature',
+  tags: ['kolkata', 'greenery', 'maidan', 'street', 'nature-urban'],
+  collection: 'Landscapes of Bengal',
+  device: 'Redmi Note 11 Pro+ 5G, Xiaomi',
+  sensor: '108 MP',
+  lens: '5.89mm (Equivalent to 24mm full-frame)',
+  aperture: 'f/1.89',
+  shutter: '1/60s',
+  iso: '60',
+  wb: 'Auto',
+  flash: 'No Flash',
+  mode: 'Pro | No Flash',
+  editing: {
+    app: 'Adobe Lightroom Mobile',
+    masking: 'Utilized Masking for precise adjustments on foliage, pathway, and sky to control lighting and contrast.',
+    light: 'Adjusted Exposure and increased Contrast for depth; brightened Highlights and deepened Shadows for drama; boosted Whites and deepened Blacks.',
+    color: 'Enhanced Vibrance and Saturation, focusing on green tones; slightly cooled Color Temperature; fine Hue adjustments on greens for a rich, luminous effect.',
+    detail: 'Increased Clarity and Sharpness for texture definition; applied subtle Vignette to center focus.'
+  },
+  notes: 'A vivid portrayal of Kolkata’s Maidan on a tranquil Sunday afternoon — lush greens, textured pathways, and an urban oasis alive under filtered daylight.'
+},
+{
+  src: 'asstes/photo9.jpg',
+  title: 'The Grid and the Green',
+  caption: "Where man-made structure meets nature's canvas under a dramatic sky. ☁️",
+  location: 'Railway Track, Nadia, West Bengal, India',
+  date: '2024-07-17',
+  time: '08:58 IST',
+  camera: 'Redmi Note 11 Pro+ 5G',
+  category: 'Nature',
+  tags: ['industrial', 'nature', 'contrast', 'sky', 'pylon'],
+  collection: 'Landscapes of Bengal',
+  device: 'Redmi Note 11 Pro+ 5G, Xiaomi',
+  sensor: '108 MP',
+  lens: '5.89mm (Equivalent to 24mm full-frame)',
+  aperture: 'f/1.89',
+  shutter: '1/1187s',
+  iso: '50',
+  wb: 'Auto',
+  flash: 'No Flash',
+  mode: 'Pro | Day Light | No Flash',
+  editing: {
+    app: 'Adobe Lightroom Mobile',
+    color: 'Heavily increased Vibrance and Saturation, boosting blue and green channels for a vivid, hyper-realistic tone; adjusted sky Hue to a deeper cyan.',
+    light: 'Increased Contrast; deepened Blacks and Shadows for stronger pylon definition; boosted Highlights and Whites to make clouds stand out.',
+    detail: 'Enhanced Clarity and Sharpness to define the pylon’s metallic texture and the details in the crop rows.',
+    masking: 'Applied selective Masking on the Sky to enhance blue tones and cloud contrast without affecting the field below.'
+  },
+  notes: 'A powerful visual blend of technology and nature — the steel geometry of the pylon towering over lush farmlands beneath a bold, textured sky. A study in contrast and coexistence.'
 },
 
 ];
@@ -170,6 +284,7 @@ const filterDef = [
   {id:'all', label:'All'},
   {id:'Nature', label:'Nature'},
   {id:'Festival', label:'Festival'},
+  {id:'Abstract', label:'Abstract'},
   {id:'location:Krishnanagar', label:'Krishnanagar'},
   {id:'location:Kolkata', label:'Kolkata'},
   {id:'collection:Landscapes of Bengal', label:'Landscapes of Bengal'},
@@ -395,15 +510,45 @@ function populatePanel(p) {
       <div class="detail-row"><span class="detail-label">Shutter</span><span class="detail-value">${esc(p.shutter)}</span></div>
       <div class="detail-row"><span class="detail-label">ISO</span><span class="detail-value">${esc(p.iso)}</span></div>
     </div>
-    <div class="detail-section">
-      <div class="section-title"><i class="fas fa-palette"></i> Post-Processing</div>
-      <div class="detail-row"><span class="detail-label">Software</span><span class="detail-value">${esc(p.editing.app)}</span></div>
-      <div class="detail-row"><span class="detail-label">Exposure</span><span class="detail-value">${esc(p.editing.exposure)}</span></div>
-      <div class="detail-row"><span class="detail-label">Color</span><span class="detail-value">${esc(p.editing.color)}</span></div>
-      <div class="detail-row"><span class="detail-label">Tone</span><span class="detail-value">${esc(p.editing.tone)}</span></div>
-      <div class="detail-row"><span class="detail-label">Tone</span><span class="detail-value">${esc(p.editing.tone)}</span></div>
-      <div class="detail-row"><span class="detail-label">Aesthetics</span><span class="detail-value">${esc(p.editing.aesthetics)}</span></div>
-      <div class="detail-row"><span class="detail-label">Detail</span><span class="detail-value">${esc(p.editing.detail)}</span></div>
+    
+        <div class="section-title"><i class="fas fa-palette"></i> Post-Processing</div>
+
+
+        <div class="detail-row">
+          <span class="detail-label">Software</span>
+          <span class="detail-value">${esc(p.editing?.app || 'Not specified')}</span>
+        </div>
+
+        <div class="detail-row">
+          <span class="detail-label">Light</span>
+          <span class="detail-value">${esc(p.editing?.light || 'Not specified')}</span>
+        </div>
+
+        <div class="detail-row">
+          <span class="detail-label">Exposure</span>
+          <span class="detail-value">${esc(p.editing?.exposure || 'Not specified')}</span>
+        </div>
+
+        <div class="detail-row">
+          <span class="detail-label">Tone</span>
+          <span class="detail-value">${esc(p.editing?.tone || 'Not specified')}</span>
+        </div>
+
+        <div class="detail-row">
+          <span class="detail-label">Color</span>
+          <span class="detail-value">${esc(p.editing?.color || 'Not specified')}</span>
+        </div>
+
+        <div class="detail-row">
+          <span class="detail-label">Masking</span>
+          <span class="detail-value">${esc(p.editing?.masking || 'Not specified')}</span>
+        </div>
+
+        <div class="detail-row">
+          <span class="detail-label">Detail</span>
+          <span class="detail-value">${esc(p.editing?.detail || 'Not specified')}</span>
+        </div>
+
 
     </div>
     <div class="detail-section">
