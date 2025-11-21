@@ -262,6 +262,66 @@ const photos = [
   },
   notes: 'A powerful visual blend of technology and nature — the steel geometry of the pylon towering over lush farmlands beneath a bold, textured sky. A study in contrast and coexistence.'
 },
+{
+  src: 'asstes/photo10.jpg',
+  title: 'Sky Canopy',
+  caption: "Looking up into nature's vast, intricate ceiling. 🌳",
+  location: 'NH-12, Haringhata, West Bengal, India',
+  date: '2025-11-16',
+  time: '21:22 IST',
+  camera: 'Redmi Note 11 Pro+ 5G',
+  category: 'Nature',
+  tags: ['trees', 'sky', 'canopy', 'branches', 'nature-upshot'],
+  collection: 'Landscapes of Bengal',
+  device: 'Redmi Note 11 Pro+ 5G, Xiaomi',
+  sensor: '108 MP',
+  lens: '5.89mm (Equivalent to 24mm full-frame)',
+  aperture: 'f/1.9',
+  shutter: '1/320s',
+  iso: '50',
+  wb: 'Auto',
+  flash: 'No Flash',
+  mode: 'Pro | Day Light | No Flash',
+  editing: {
+    app: 'Adobe Lightroom Mobile',
+    light: 'Balanced Exposure and Contrast for strong backlight; reduced Highlights to preserve sky detail; lifted Shadows to show branch texture; fine-tuned Whites and Blacks for dynamic range.',
+    color: 'Boosted Vibrance and Saturation for lush greens; adjusted Color Temperature to refine mood and green tones.',
+    detail: 'Enhanced Texture for bark and leaves; applied Dehaze for deeper color and clarity; increased Clarity and Sharpness to highlight branch patterns.',
+    masking: 'Used masking on the sky to selectively control brightness and color.'
+  },
+  notes: 'A dramatic upward shot capturing the layered canopy of a tall tree. The complex branch network and deep greens create an immersive sense of natural scale and depth.'
+},
+
+{
+  src: 'asstes/photo11.jpg',
+  title: 'Shuttlecock Silhouette',
+  caption: 'Framed by the golden hour low winter sun and ready for the next smash. 🌅',
+  location: 'Krishnanagar, West Bengal, India',
+  date: '2023-12-11',
+  time: '15:30 IST',
+  camera: 'Redmi Note 11 Pro+ 5G',
+  category: 'Sports',
+  tags: ['silhouette', 'sunset', 'sports', 'golden-hour', 'macro'],
+  collection: 'Abstract Art',
+  device: 'Redmi Note 11 Pro+ 5G, Xiaomi',
+  sensor: '108 MP',
+  lens: '5.89mm (Equivalent to 24mm full-frame)',
+  aperture: 'f/1.89',
+  shutter: '1/1237s',
+  iso: '50',
+  wb: 'Auto',
+  flash: 'No Flash',
+  mode: 'Pro | No Flash',
+  editing: {
+    app: 'Adobe Lightroom Mobile',
+    masking: 'Employed Masking to isolate the background for intense golden light enhancement and the foreground subject for precise silhouette control.',
+    color: 'Increased Color Temperature and boosted Vibrance and Saturation to achieve a deep golden hue.',
+    light: 'Enhanced Contrast and adjusted Highlights, Shadows, Whites, and Blacks to emphasize the silhouette against the bright sunlight.',
+    detail: 'Enhanced Texture and Clarity to define shuttlecock feathers and racket strings; added Sharpness for overall crispness.'
+  },
+  notes: 'A creative close-up composition from Krishnanagar, capturing the shuttlecock framed by the setting sun. Masking and texture work in Lightroom brought out the golden-hour drama beautifully.'
+},
+
 
 ];
 
@@ -285,6 +345,7 @@ const filterDef = [
   {id:'Nature', label:'Nature'},
   {id:'Festival', label:'Festival'},
   {id:'Abstract', label:'Abstract'},
+  {id:'Sports', label:'Sports'},
   {id:'location:Krishnanagar', label:'Krishnanagar'},
   {id:'location:Kolkata', label:'Kolkata'},
   {id:'collection:Landscapes of Bengal', label:'Landscapes of Bengal'},
