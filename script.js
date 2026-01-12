@@ -322,6 +322,64 @@ const photos = [
   notes: 'A creative close-up composition from Krishnanagar, capturing the shuttlecock framed by the setting sun. Masking and texture work in Lightroom brought out the golden-hour drama beautifully.'
 },
 
+{
+  src: 'asstes/photo12.jpg',
+  title: 'A Game of Shadows ♟️',
+  caption: 'The intricate dance of strategy, frozen in monochrome. 🎬',
+  location: 'NH-12, Haringhata, West Bengal, India',
+  date: '2025-12-12',
+  time: '11:35 IST',
+  camera: 'Redmi Note 11 Pro+ 5G',
+  category: 'Sports',
+  tags: ['black-and-white', 'chess', 'strategy', 'film', 'moody', 'minimal', 'geometry'],
+  collection: 'Black & White',
+  device: 'Redmi Note 11 Pro+ 5G, Xiaomi',
+  sensor: '108 MP',
+  lens: '5.89mm (Equivalent to 24mm full-frame)',
+  aperture: 'f/1.89',
+  shutter: '1/30s',
+  iso: '150',
+  wb: 'Manual',
+  flash: 'No Flash',
+  mode: 'Manual | No Flash',
+  editing: {
+    app: 'Adobe Lightroom Mobile',
+    color: 'Converted to Black & White using B&W Mixer; darkened non-essential colors to deepen blacks and shadows.',
+    light: 'Reduced Exposure, increased Contrast, and heavily lowered Blacks/Shadows for dramatic low-key lighting.',
+    detail: 'Enhanced Clarity and Sharpness to emphasize textures of the pieces and board.',
+    effects: 'Applied subtle Grain to create a gritty, film-like, vintage aesthetic.'
+  },
+  notes: 'A moody, top-down monochrome chessboard shot mid-game. Dramatic low-key treatment highlights tension and geometric sharpness.'
+},
+{
+  src: 'asstes/photo13.jpg',
+  title: 'The River"s Commute 🛶',
+  caption: 'Quiet transit on the water, bathed in the brilliant afternoon light. 🌅',
+  location: 'Nadia, West Bengal, India',
+  date: '2025-12-15',
+  time: '15:03 IST',
+  camera: 'Redmi Note 11 Pro+ 5G',
+  category: 'Nature',
+  tags: ['sunlit', 'river', 'boat', 'travel', 'reflection', 'afternoon', 'vibrant'],
+  collection: 'Landscapes of Bengal',
+  device: 'Redmi Note 11 Pro+ 5G, Xiaomi',
+  sensor: '108 MP',
+  lens: '5.89mm (Equivalent to 24mm full-frame)',
+  aperture: 'f/1.89',
+  shutter: '1/2229s',
+  iso: '50',
+  wb: 'Auto',
+  flash: 'No Flash',
+  mode: 'Pro | No Flash',
+  editing: {
+    app: 'Adobe Lightroom Mobile',
+    color: 'Boosted Vibrance and Saturation to intensify greens and blues; warm Temperature to emphasize sunlight.',
+    light: 'Increased Contrast for punch; balanced Highlights around sun flare; lifted Shadows on boat and riverbank.',
+    detail: 'Used Dehaze for atmospheric clarity; added Clarity and Sharpness to accent reflections on water.',
+    masking: 'Selective enhancements likely applied to sun brilliance and boat passengers for detail recovery.'
+  },
+  notes: 'A sun-drenched afternoon boat crossing captured with high shutter speed to freeze ripples. The vivid editing emphasizes the strong backlight and shimmering reflection on calm water.'
+},
 
 ];
 
